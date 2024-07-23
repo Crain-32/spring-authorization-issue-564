@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: auth
+eureka:
+  client:
+    enabled: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+
+# Leaving most of this blank as it is the focal point of the question
+
+server:
+  port: 8082
